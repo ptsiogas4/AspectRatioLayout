@@ -8,6 +8,19 @@ This is a simple library that helps you use all of your classic android widget.V
 ![Sample](https://raw.githubusercontent.com/ptsiogas4/AspectRatioLayout/master/Screenshots/screenshot1.png)
 ![Sample](https://raw.githubusercontent.com/ptsiogas4/AspectRatioLayout/master/Screenshots/screenshot2.png)
 
+### Building
+=======================
+Fork the repository and include the 'library' module and you are done :)
+AAR File coming to soon to maven central near you ;)
+
+Or use JitPack: https://jitpack.io/#ptsiogas4/AspectRatioLayout
+
+```
+repositories {
+    maven { url 'https://jitpack.io' }
+}
+    compile 'com.github.ptsiogas4:AspectRatioLayout:1.0.0'
+```
 
 ## AspectRatioLayout java sample code
 ```java
