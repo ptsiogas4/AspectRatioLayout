@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RatioViewAttrs">
+        <!-- Sets view ratio size of aspect -->
+        <attr name="aspectRatio" format="float" />
+        <!-- Sets view type of ratio size -->
+        <attr name="ratioType">
+            <enum name="byWidth" value="0"/>
+            <enum name="byHeight" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <!-- RatioImageView -->
+    <declare-styleable name="RatioImageView" parent="RatioViewAttrs">
+        <attr name="aspectRatio" />
+        <attr name="ratioType"/>
+    </declare-styleable>
+
+    <!-- RatioLinearLayout -->
+    <declare-styleable name="RatioLinearLayout" parent="RatioViewAttrs">
+        <attr name="aspectRatio" />
+        <attr name="ratioType"/>
+    </declare-styleable>
+
+    <!-- RatioFrameLayout -->
+    <declare-styleable name="RatioFrameLayout" parent="RatioViewAttrs">
+        <attr name="aspectRatio" />
+        <attr name="ratioType"/>
+    </declare-styleable>
+
+    <!-- RatioRelativeLayout -->
+    <declare-styleable name="RatioRelativeLayout" parent="RatioViewAttrs">
+        <attr name="aspectRatio" />
+        <attr name="ratioType"/>
+    </declare-styleable>
+
+    <!-- RatioGridLayout -->
+    <declare-styleable name="RatioGridLayout" parent="RatioViewAttrs">
+        <attr name="aspectRatio" />
+        <attr name="ratioType"/>
+    </declare-styleable>
+
+    <!-- RatioImageButton -->
+    <declare-styleable name="RatioImageButton" parent="RatioViewAttrs">
+        <attr name="aspectRatio" />
+        <attr name="ratioType"/>
+    </declare-styleable>
+
+    <!-- RatioButton -->
+    <declare-styleable name="RatioButton" parent="RatioViewAttrs">
+        <attr name="aspectRatio" />
+        <attr name="ratioType"/>
+    </declare-styleable>
+
+    <!-- RatioListView -->
+    <declare-styleable name="RatioListView" parent="RatioViewAttrs">
+        <attr name="aspectRatio" />
+        <attr name="ratioType"/>
+    </declare-styleable>
+
+    <!-- RatioRadioGroup -->
+    <declare-styleable name="RatioRadioGroup" parent="RatioViewAttrs">
+        <attr name="aspectRatio" />
+        <attr name="ratioType"/>
+    </declare-styleable>
+
+    <!-- RatioRadioButton -->
+    <declare-styleable name="RatioRadioButton" parent="RatioViewAttrs">
+        <attr name="aspectRatio" />
+        <attr name="ratioType"/>
+    </declare-styleable>
+
+    <!-- RatioEditText -->
+    <declare-styleable name="RatioEditText" parent="RatioViewAttrs">
+        <attr name="aspectRatio" />
+        <attr name="ratioType"/>
+    </declare-styleable>
+
+    <!-- RatioTextView -->
+    <declare-styleable name="RatioTextView" parent="RatioViewAttrs">
+        <attr name="aspectRatio" />
+        <attr name="ratioType"/>
+    </declare-styleable>
+
+    <!-- RatioGridView -->
+    <declare-styleable name="RatioGridView" parent="RatioViewAttrs">
+        <attr name="aspectRatio" />
+        <attr name="ratioType"/>
+    </declare-styleable>
+
+    <!-- RatioView -->
+    <declare-styleable name="RatioView" parent="RatioViewAttrs">
+        <attr name="aspectRatio" />
+        <attr name="ratioType"/>
+    </declare-styleable>
+
+    <!-- RatioCheckBox -->
+    <declare-styleable name="RatioCheckBox" parent="RatioViewAttrs">
+        <attr name="aspectRatio" />
+        <attr name="ratioType"/>
+    </declare-styleable>
+
+    <!-- RatioCheckedTextView -->
+    <declare-styleable name="RatioCheckedTextView" parent="RatioViewAttrs">
+        <attr name="aspectRatio" />
+        <attr name="ratioType"/>
+    </declare-styleable>
+
+    <!-- RatioProgressBar -->
+    <declare-styleable name="RatioProgressBar" parent="RatioViewAttrs">
+        <attr name="aspectRatio" />
+        <attr name="ratioType"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <customviews.ptsiogas.library.widgets.RatioLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimaryDark"
+            app:aspectRatio="0.50"
+            app:ratioType="byWidth">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="RatioLinearLayout - Ratio byWidth, 0.5"
+                android:textColor="#ffffff" />
+        </customviews.ptsiogas.library.widgets.RatioLinearLayout>
+
+        <customviews.ptsiogas.library.widgets.RatioRelativeLayout
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="24dp"
+            android:background="@color/colorPrimaryDark"
+            app:aspectRatio="1"
+            app:ratioType="byWidth">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="RatioRelativeLayout - Ratio byWidth or byHeight, 1: SquareLayout"
+                android:textColor="#ffffff" />
+
+        </customviews.ptsiogas.library.widgets.RatioRelativeLayout>
+
+        <customviews.ptsiogas.library.widgets.RatioFrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="24dp"
+            android:background="@color/colorPrimaryDark"
+            app:aspectRatio="3"
+            app:ratioType="byHeight">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="RatioFrameLayout - Ratio byHeight, 3"
+                android:textColor="#ffffff" />
+        </customviews.ptsiogas.library.widgets.RatioFrameLayout>
+
+        <customviews.ptsiogas.library.widgets.RatioGridLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="24dp"
+            android:background="@color/colorPrimaryDark"
+            app:aspectRatio="7"
+            app:ratioType="byHeight">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="RatioGridLayout - Ratio byHeight, 7"
+                android:textColor="#ffffff" />
+        </customviews.ptsiogas.library.widgets.RatioGridLayout>
+
+        <customviews.ptsiogas.library.widgets.RatioTextView
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="24dp"
+            android:background="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:text="RatioTextView - Ratio byWidth, 0.7"
+            android:textColor="#ffffff"
+            app:aspectRatio="0.7"
+            app:ratioType="byWidth" />
+
+        <customviews.ptsiogas.library.widgets.RatioButton
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="24dp"
+            android:background="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:text="RatioButton - Ratio byWidth, 1.2"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            app:aspectRatio="1.2"
+            app:ratioType="byWidth" />
+    </LinearLayout>
+</ScrollView>
