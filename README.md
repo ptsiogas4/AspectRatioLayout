@@ -11,8 +11,8 @@ This is a simple library that helps you use all of your classic android widget.V
 
 ## AspectRatioLayout java sample code
 ```java
-RatioLinearLayout latioLinearLayout = ...
-latioLinearLayout.setAspectRatio(2);
+RatioLinearLayout ratioLinearLayout = ...
+ratioLinearLayout.setAspectRatio(2);
 ```
 
 ## Attributes
