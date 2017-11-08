@@ -39,14 +39,14 @@ public class RatioButton extends android.support.v7.widget.AppCompatButton {
         super.onMeasure(widthMeasureSpec, heightMeasureSpec);
     }
 
-    public float getAspectRation() {
+    public float getAspectRatio() {
         if (mWidgetHelper != null) {
             return mWidgetHelper.getAspectRatio();
         }
         return 1;
     }
 
-    public void setAspectRation(float mWidthHeightRatio) {
+    public void setAspectRatio(float mWidthHeightRatio) {
         if (mWidgetHelper != null) {
             mWidgetHelper.setAspectRatio(mWidthHeightRatio);
             ViewGroup.LayoutParams params = getLayoutParams();
